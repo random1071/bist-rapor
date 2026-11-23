@@ -77,24 +77,6 @@
    "entry_commission": 2.18,
    "exits": [],
    "t1_done": false
-  },
-  {
-   "id": 9,
-   "book": "intraday",
-   "ticker": "HALKB",
-   "strategy": "Açılış aralığı kırılımı",
-   "entry_time": "2026-11-23T10:43:16+03:00",
-   "entry": 39.7397,
-   "shares": 62,
-   "remaining": 62,
-   "stop": 39.17,
-   "stop_initial": 39.17,
-   "t1": 40.19,
-   "t2": 40.59,
-   "risk_amount": 39.02,
-   "entry_commission": 3.7,
-   "exits": [],
-   "t1_done": false
   }
  ],
  "closed": [
@@ -231,6 +213,36 @@
    "r_multiple": -1.2,
    "exit_time": "2026-11-23T10:55:00+03:00",
    "exit_reason": "stop"
+  },
+  {
+   "id": 9,
+   "book": "intraday",
+   "ticker": "HALKB",
+   "strategy": "Açılış aralığı kırılımı",
+   "entry_time": "2026-11-23T10:43:16+03:00",
+   "entry": 39.7397,
+   "shares": 62,
+   "remaining": 0,
+   "stop": 39.17,
+   "stop_initial": 39.17,
+   "t1": 40.19,
+   "t2": 40.59,
+   "risk_amount": 39.02,
+   "entry_commission": 3.7,
+   "exits": [
+    {
+     "time": "2026-11-23T18:44:10.532755+03:00",
+     "shares": 62,
+     "price": 39.6603,
+     "reason": "seans sonu",
+     "pnl": -12.31
+    }
+   ],
+   "t1_done": false,
+   "pnl": -12.31,
+   "r_multiple": -0.32,
+   "exit_time": "2026-11-23T18:44:10.532755+03:00",
+   "exit_reason": "seans sonu"
   }
  ],
  "equity": {
@@ -274,6 +286,10 @@
    {
     "date": "2026-11-20",
     "equity": 9970.44
+   },
+   {
+    "date": "2026-11-23",
+    "equity": 9921.67
    }
   ],
   "swing": [
@@ -316,6 +332,10 @@
    {
     "date": "2026-11-20",
     "equity": 19822.66
+   },
+   {
+    "date": "2026-11-23",
+    "equity": 19895.14
    }
   ]
  },
