@@ -79,24 +79,6 @@
    "t1_done": false
   },
   {
-   "id": 8,
-   "book": "intraday",
-   "ticker": "YKBNK",
-   "strategy": "Açılış aralığı kırılımı",
-   "entry_time": "2026-11-23T10:43:21+03:00",
-   "entry": 37.057,
-   "shares": 67,
-   "remaining": 67,
-   "stop": 36.66,
-   "stop_initial": 36.66,
-   "t1": 37.4,
-   "t2": 37.7,
-   "risk_amount": 30.32,
-   "entry_commission": 3.72,
-   "exits": [],
-   "t1_done": false
-  },
-  {
    "id": 9,
    "book": "intraday",
    "ticker": "HALKB",
@@ -219,6 +201,36 @@
    "r_multiple": -0.83,
    "exit_time": "2026-11-18T14:20:00+03:00",
    "exit_reason": "maliyette stop"
+  },
+  {
+   "id": 8,
+   "book": "intraday",
+   "ticker": "YKBNK",
+   "strategy": "Açılış aralığı kırılımı",
+   "entry_time": "2026-11-23T10:43:21+03:00",
+   "entry": 37.057,
+   "shares": 67,
+   "remaining": 0,
+   "stop": 36.66,
+   "stop_initial": 36.66,
+   "t1": 37.4,
+   "t2": 37.7,
+   "risk_amount": 30.32,
+   "entry_commission": 3.72,
+   "exits": [
+    {
+     "time": "2026-11-23T10:55:00+03:00",
+     "shares": 67,
+     "price": 36.6233,
+     "reason": "stop",
+     "pnl": -36.46
+    }
+   ],
+   "t1_done": false,
+   "pnl": -36.46,
+   "r_multiple": -1.2,
+   "exit_time": "2026-11-23T10:55:00+03:00",
+   "exit_reason": "stop"
   }
  ],
  "equity": {
