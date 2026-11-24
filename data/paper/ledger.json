@@ -25,24 +25,6 @@
    "t1_done": false
   },
   {
-   "id": 4,
-   "book": "swing",
-   "ticker": "YKBNK",
-   "strategy": "Kırılım sonrası yeniden test",
-   "entry_time": "2026-11-13T18:27:21.325858+03:00",
-   "entry": 37.8178,
-   "shares": 43,
-   "remaining": 43,
-   "stop": 35.68,
-   "stop_initial": 35.68,
-   "t1": 40.73,
-   "t2": 43.25,
-   "risk_amount": 94.36,
-   "entry_commission": 2.44,
-   "exits": [],
-   "t1_done": false
-  },
-  {
    "id": 6,
    "book": "swing",
    "ticker": "GARAN",
@@ -75,6 +57,24 @@
    "t2": 38.58,
    "risk_amount": 93.83,
    "entry_commission": 2.18,
+   "exits": [],
+   "t1_done": false
+  },
+  {
+   "id": 10,
+   "book": "swing",
+   "ticker": "TAVHL",
+   "strategy": "Yükselen trendde geri çekilme",
+   "entry_time": "2026-11-24T18:43:32.429827+03:00",
+   "entry": 288.288,
+   "shares": 6,
+   "remaining": 6,
+   "stop": 274.29,
+   "stop_initial": 274.29,
+   "t1": 315.28,
+   "t2": 335.77,
+   "risk_amount": 86.58,
+   "entry_commission": 2.59,
    "exits": [],
    "t1_done": false
   }
@@ -243,6 +243,36 @@
    "r_multiple": -0.32,
    "exit_time": "2026-11-23T18:44:10.532755+03:00",
    "exit_reason": "seans sonu"
+  },
+  {
+   "id": 4,
+   "book": "swing",
+   "ticker": "YKBNK",
+   "strategy": "Kırılım sonrası yeniden test",
+   "entry_time": "2026-11-13T18:27:21.325858+03:00",
+   "entry": 37.8178,
+   "shares": 43,
+   "remaining": 0,
+   "stop": 35.68,
+   "stop_initial": 35.68,
+   "t1": 40.73,
+   "t2": 43.25,
+   "risk_amount": 94.36,
+   "entry_commission": 2.44,
+   "exits": [
+    {
+     "time": "2026-11-24T09:30:00+03:00",
+     "shares": 43,
+     "price": 35.6443,
+     "reason": "stop",
+     "pnl": -98.2
+    }
+   ],
+   "t1_done": false,
+   "pnl": -98.2,
+   "r_multiple": -1.04,
+   "exit_time": "2026-11-24T09:30:00+03:00",
+   "exit_reason": "stop"
   }
  ],
  "equity": {
@@ -290,6 +320,10 @@
    {
     "date": "2026-11-23",
     "equity": 9921.67
+   },
+   {
+    "date": "2026-11-24",
+    "equity": 9921.67
    }
   ],
   "swing": [
@@ -336,8 +370,12 @@
    {
     "date": "2026-11-23",
     "equity": 19895.14
+   },
+   {
+    "date": "2026-11-24",
+    "equity": 19758.41
    }
   ]
  },
- "next_id": 10
+ "next_id": 11
 }
