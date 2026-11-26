@@ -41,24 +41,6 @@
    "entry_commission": 2.59,
    "exits": [],
    "t1_done": false
-  },
-  {
-   "id": 11,
-   "book": "intraday",
-   "ticker": "BRSAN",
-   "strategy": "VWAP geri alımı",
-   "entry_time": "2026-11-26T10:32:27+03:00",
-   "entry": 656.1555,
-   "shares": 3,
-   "remaining": 3,
-   "stop": 648.18,
-   "stop_initial": 648.18,
-   "t1": 661.27,
-   "t2": 666.5,
-   "risk_amount": 26.88,
-   "entry_commission": 2.95,
-   "exits": [],
-   "t1_done": false
   }
  ],
  "closed": [
@@ -314,6 +296,36 @@
    "pnl": -93.02,
    "r_multiple": -1.05,
    "exit_time": "2026-11-25T09:30:00+03:00",
+   "exit_reason": "stop"
+  },
+  {
+   "id": 11,
+   "book": "intraday",
+   "ticker": "BRSAN",
+   "strategy": "VWAP geri alımı",
+   "entry_time": "2026-11-26T10:32:27+03:00",
+   "entry": 656.1555,
+   "shares": 3,
+   "remaining": 0,
+   "stop": 648.18,
+   "stop_initial": 648.18,
+   "t1": 661.27,
+   "t2": 666.5,
+   "risk_amount": 26.88,
+   "entry_commission": 2.95,
+   "exits": [
+    {
+     "time": "2026-11-26T11:10:00+03:00",
+     "shares": 3,
+     "price": 647.5318,
+     "reason": "stop",
+     "pnl": -31.73
+    }
+   ],
+   "t1_done": false,
+   "pnl": -31.73,
+   "r_multiple": -1.18,
+   "exit_time": "2026-11-26T11:10:00+03:00",
    "exit_reason": "stop"
   }
  ],
