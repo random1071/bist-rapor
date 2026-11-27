@@ -855,14 +855,12 @@
  ],
  "days": {},
  "last_run": {
-  "at": "2026-11-27T18:41:01+03:00",
+  "at": "2026-11-27T19:41:49+03:00",
   "trigger": "schedule",
-  "slots": [
-   "close"
-  ],
+  "slots": [],
   "failed": [],
-  "requests": 203,
-  "fetch_failures": 8
+  "requests": 0,
+  "fetch_failures": 0
  },
  "installed_at": "2026-11-09T21:33:33+03:00"
 }
