@@ -7,24 +7,6 @@
  },
  "open": [
   {
-   "id": 7,
-   "book": "swing",
-   "ticker": "VAKBN",
-   "strategy": "Yükselen trendde geri çekilme",
-   "entry_time": "2026-11-20T18:37:40.056843+03:00",
-   "entry": 33.033,
-   "shares": 44,
-   "remaining": 44,
-   "stop": 30.95,
-   "stop_initial": 30.95,
-   "t1": 36.04,
-   "t2": 38.58,
-   "risk_amount": 93.83,
-   "entry_commission": 2.18,
-   "exits": [],
-   "t1_done": false
-  },
-  {
    "id": 10,
    "book": "swing",
    "ticker": "TAVHL",
@@ -327,6 +309,36 @@
    "r_multiple": -1.18,
    "exit_time": "2026-11-26T11:10:00+03:00",
    "exit_reason": "stop"
+  },
+  {
+   "id": 7,
+   "book": "swing",
+   "ticker": "VAKBN",
+   "strategy": "Yükselen trendde geri çekilme",
+   "entry_time": "2026-11-20T18:37:40.056843+03:00",
+   "entry": 33.033,
+   "shares": 44,
+   "remaining": 0,
+   "stop": 30.95,
+   "stop_initial": 30.95,
+   "t1": 36.04,
+   "t2": 38.58,
+   "risk_amount": 93.83,
+   "entry_commission": 2.18,
+   "exits": [
+    {
+     "time": "2026-11-27T09:30:00+03:00",
+     "shares": 44,
+     "price": 30.7692,
+     "reason": "stop",
+     "pnl": -103.82
+    }
+   ],
+   "t1_done": false,
+   "pnl": -103.82,
+   "r_multiple": -1.11,
+   "exit_time": "2026-11-27T09:30:00+03:00",
+   "exit_reason": "stop"
   }
  ],
  "equity": {
@@ -386,6 +398,10 @@
    {
     "date": "2026-11-26",
     "equity": 9889.94
+   },
+   {
+    "date": "2026-11-27",
+    "equity": 9889.94
    }
   ],
   "swing": [
@@ -444,6 +460,10 @@
    {
     "date": "2026-11-26",
     "equity": 19605.46
+   },
+   {
+    "date": "2026-11-27",
+    "equity": 19606.07
    }
   ]
  },
